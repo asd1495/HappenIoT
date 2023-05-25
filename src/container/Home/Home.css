@@ -1,0 +1,31 @@
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    opacity: 95%;
+}
+
+.banner-container {
+    position: relative;
+    width: 50px;
+}
+
+.banner-text {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: #fdfdfb;
+    text-align: center;
+    font-family: 'Roboto mono', monospace;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.6s;
+}
+
+.banner-text.opacity {
+    opacity: 0;
+    transition: 0.6s;
+}
