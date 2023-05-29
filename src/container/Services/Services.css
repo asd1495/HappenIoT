@@ -1,0 +1,26 @@
+.card {
+    transition: all .2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+div .text-center h2 {
+    padding: 60px;
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+
+.card-img-top {
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 2rem;
+}
+
+.card-text {
+    font-size: 1.5rem;
+}
