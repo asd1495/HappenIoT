@@ -84,7 +84,7 @@ function Services() {
           {/*Card 8*/}
           <div className="col-sm-12 col-md-6 col-lg-3 mb-4">
             <div className="card" style={{ width: '25rem' }}>
-              <img src="https://www.spaceitbridge.com/wp-content/uploads/2019/11/FOSSASAT-1-cube.jpg" className="card-img-top" alt="..." />
+              <img src="https://preview.redd.it/zpht1varhwi11.jpg?width=2048&format=pjpg&auto=webp&s=1f0cbef8e697b1f0dcacfde130c2b0b89fe2df06" className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Diseño y aplicación de picosatélite</h5>
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
