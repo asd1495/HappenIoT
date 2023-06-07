@@ -9,6 +9,9 @@ import greatex from '../assets/logogreatex-1.png';
 import cconsultores from '../assets/cconsultores.png';
 import ombs from '../assets/ombs.png';
 import dt from '../assets/dt.png';
+import mail from '../assets/mail.svg';
+import linkedin from '../assets/linkedin.svg';
+import instagram from '../assets/instagram.svg';
 
 export default {
     logoDark,
@@ -21,5 +24,8 @@ export default {
     greatex,
     cconsultores,
     ombs,
-    dt
+    dt,
+    mail,
+    linkedin,
+    instagram
 };

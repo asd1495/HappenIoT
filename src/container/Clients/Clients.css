@@ -56,3 +56,13 @@
       -webkit-filter: grayscale(0);
       -webkit-transform: scale(1.01);
     }
+
+    @media screen and (max-width: 450px) {
+        .clients-cards--container {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            grid-auto-rows: 240px;
+            height: auto;
+        }
+    }

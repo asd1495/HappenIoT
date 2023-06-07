@@ -18,11 +18,11 @@
 
 .product-detail--title h2 {
     margin-bottom: 20px;
-    font-size: 2.4rem;
     font-weight: 700;
     font-size: 3rem;
     line-height: 2.6rem;
     color: #fdfdfb;
+    padding: 30px;
 }
 
 .product-cards--container {
@@ -57,4 +57,11 @@
     font-weight: 200;
     line-height: 1.8rem;
     color: #fdfdfb;
+}
+
+@media screen and (max-width: 450px) {
+    .product-cards--container {
+        width: 100%;
+        flex-direction: column;
+    }
 }
