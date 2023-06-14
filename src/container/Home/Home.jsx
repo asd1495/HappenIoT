@@ -18,7 +18,7 @@ function Home() {
       }, []);
     return (
         <section className="banner">
-            <img src={images.Cover} alt="" />    
+            <img src={images.Cover} alt="" />
                 <p className="banner-text">
                     HappenIoT se dedica a ofrecer servicios innovadores de consultoria especializada en sistemas inteligentes con internet de las cosas e inteligencia artificial
                 </p>

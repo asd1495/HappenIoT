@@ -2,67 +2,68 @@
     position: relative;
     width: 100%;
     min-width: 320px;
-    height: 600px;
     padding: 20px 10px;
     background-color: #fdfdfb;
-}
-
-.clients-detail--title {
+  }
+  
+  .clients-detail--title {
     width: 90%;
     min-width: 288px;
     height: auto;
     margin: 0 auto;
     margin-top: 50px;
     text-align: center;
-}
-
-.clients-detail--title h2 {
+  }
+  
+  .clients-detail--title h2 {
     margin-bottom: 20px;
     font-size: 2.4rem;
     font-weight: 700;
     font-size: 3rem;
     line-height: 2.6rem;
     color: #1f1f1f;
-}
-
-.clients-cards--container {
+  }
+  
+  .clients-cards--container {
     display: flex;
     flex-wrap: wrap;
-    width: 1550px;
+    justify-content: center;
+    width: 100%;
+    max-width: 1550px;
     margin: 0 auto;
-}
-
-.clients-detail--card {
+  }
+  
+  .clients-detail--card {
     width: 90%;
     min-width: 300px;
     max-width: 400px;
-    height: 150px;
-    margin: 15px auto;
+    height: auto;
+    margin: 15px;
     padding: 15px;
-}
-
-.clients-detail--card img {
-    height: 220px;
-    width: 220px;
+  }
+  
+  .clients-detail--card img {
+    max-width: 50%;
+    height: auto;
     object-fit: contain;
     padding: 2rem;
-    filter: gray; 
-    -webkit-filter: grayscale(1); 
-    -webkit-transition: all .5s ease-in-out;
-}
-
-.clients-detail--card img:hover {
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .clients-detail--card:hover img {
     filter: none;
-      -webkit-filter: grayscale(0);
-      -webkit-transform: scale(1.01);
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+  }
+  
+  @media screen and (max-width: 450px) {
+    .clients-cards--container {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      grid-auto-rows: 240px;
     }
-
-    @media screen and (max-width: 450px) {
-        .clients-cards--container {
-            width: 100%;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-            grid-auto-rows: 240px;
-            height: auto;
-        }
-    }
+  }
+  

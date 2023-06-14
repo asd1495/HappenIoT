@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import { images } from '../../constants'
-import './Clients.css'
+import './Clients.css';
 
 function Clients() {
   return (
@@ -29,7 +29,7 @@ function Clients() {
         </article>
       </section>
     </section>
-  )
+  );
 }
 
-export default Clients
+export default Clients;

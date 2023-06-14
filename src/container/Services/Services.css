@@ -24,3 +24,9 @@ div .text-center h2 {
 .card-text {
     font-size: 1.5rem;
 }
+
+@media screen and (max-width: 480px) {
+    .mt-4 {
+        overflow-x: hidden;
+    }
+}

@@ -12,6 +12,8 @@ import dt from '../assets/dt.png';
 import mail from '../assets/mail.svg';
 import linkedin from '../assets/linkedin.svg';
 import instagram from '../assets/instagram.svg';
+import digitalt from '../assets/digitalt.png';
+import ml from '../assets/icons8-machine-learning-48.png';
 
 export default {
     logoDark,
@@ -27,5 +29,7 @@ export default {
     dt,
     mail,
     linkedin,
-    instagram
+    instagram,
+    digitalt,
+    ml
 };

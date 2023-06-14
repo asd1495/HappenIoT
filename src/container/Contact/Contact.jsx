@@ -13,7 +13,7 @@ function Contact() {
                     Envíanos un mail</a>
             </div>
             <div className='footer-card'>
-                <a href="https://www.linkedin.com" className='p-text' target='_blank'>
+                <a href="https://www.linkedin.com/company/happeniot/" className='p-text' target='_blank'>
                     <img src={images.linkedin} alt="" />
                     Encuéntranos en LinkedIn
                 </a>
